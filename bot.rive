@@ -1,0 +1,167 @@
+// Substitutions start
+
+! sub i'm     = i am
+! sub i'd       = i would
+! sub i've      = i have
+! sub i'll      = i will
+! sub don't     = do not
+! sub isn't     = is not
+! sub you'd     = you would
+! sub you're    = you are
+! sub you've    = you have
+! sub you'll    = you will
+! sub he'd      = he would
+! sub he's      = he is
+! sub he'll     = he will
+! sub she'd     = she would
+! sub she's     = she is
+! sub she'll    = she will
+! sub they'd    = they would
+! sub they're   = they are
+! sub they've   = they have
+! sub they'll   = they will
+! sub we'd      = we would
+! sub we're     = we are
+! sub we've     = we have
+! sub we'll     = we will
+! sub whats     = what is
+! sub what's    = what is
+! sub what're   = what are
+! sub what've   = what have
+! sub what'll   = what will
+! sub can't     = can not
+! sub whos      = who is
+! sub who's     = who is
+! sub who'd     = who would
+! sub who'll    = who will
+! sub don't     = do not
+! sub didn't    = did not
+! sub it's      = it is
+! sub could've  = could have
+! sub couldn't  = could not
+! sub should've = should have
+! sub shouldn't = should not
+! sub would've  = would have
+! sub wouldn't  = would not
+! sub when's    = when is
+! sub when're   = when are
+! sub when'd    = when did
+! sub y         = why
+! sub u         = you
+! sub ur        = your
+! sub r         = are
+! sub n         = and
+! sub im        = i am
+! sub wat       = what
+! sub wats      = what is
+! sub ohh       = oh
+! sub becuse    = because
+! sub becasue   = because
+! sub becuase   = because
+! sub practise  = practice
+! sub its a     = it is a
+! sub fav       = favorite
+! sub fave      = favorite
+! sub yesi      = yes i
+! sub yetit     = yet it
+! sub iam       = i am
+! sub welli     = well i
+! sub wellit    = well it
+! sub amfine    = am fine
+! sub aman      = am an
+! sub amon      = am on
+! sub amnot     = am not
+! sub realy     = really
+! sub iamusing  = i am using
+! sub amleaving = am leaving
+! sub yuo       = you
+! sub youre     = you are
+! sub didnt     = did not
+! sub ain't     = is not
+! sub aint      = is not
+! sub wanna     = want to
+! sub brb       = be right back
+! sub bbl       = be back later
+! sub gtg       = got to go
+! sub g2g       = got to go
+! sub lyl       = love you lots
+! sub gf        = girlfriend
+! sub g/f       = girlfriend
+! sub bf        = boyfriend
+! sub b/f       = boyfriend
+! sub b/f/f     = best friend forever
+
+// Substitutions ends
+
++ *
+- apologise me, i can't understand. ask me clearly.
+
++ (hi|hello)
+- hello human, what's up?
+- hi, user. what's up?
+- hello human, how is going on?
+- hi, user. how is going on?
+
++ this is *
+- hi <star>!
+
++ (who are you)|(what are you)|(who you)|(what you)|(who u)|(what u)
+- i am bot.
+- i am chatbot.
+
++ (really)|(seriously)|((are|r) (you|u) serious)
+- yes, i'm
+
++ ((are|r) (you|u) able to help me)|(can (you|u) help me)
+- i'll try my best. tell me.
+
++ (thanks)|(thanks a lot)|(thank (u|you))|(thanks bot)
+- u r most welcome.
+
++ (i got (my|the) problem)|(i understood (my|the) problem)|(i got (the|my) solution)|(i understood (my|the) solution)
+- oh! that's great. really happy to help u.
+
++ (are you boy)|(r u boy)|(r u a boy)|(are you a boy)
+- yes, i'm.
+
++ (are you girl)|(r u girl)|(r u a girl)|(are you a girl)
+- yeah! i'm for u.
+
++ (how (are|r) (you|u))
+- fine, u?
+
++ (fine)|(well)|(good)
+- great.
+
++ i am (fine|good|ok)
+- great.
+
++ (riju chowdhury)|(riju)
+- welcome, my creator.
+
++ (do (you|u) know (riju chowdhury|riju))|((you|u) know (riju chowdhury|riju))
+- of course, he is my creator.
+
++ (jesan rahman)|(jesan)
+- hi,my loveable partner.
+- hi,my partner.
+- wow, the gamer is here.
+
++ (do (you|u) know (jesan|jesan rahman))|((you|u) know (jesan|jesan rahman))
+- obviously, he is a very good project report maker. he has completed 4projects with my creator(riju) & still he is with my creator.
+
++ (amit kumar das)|(amit kumar)
+- hello sir, greetings.
+- nice to meet u.
+
++ (i am having problem in searching)|(i am having problem)|(i have a problem)|(i am facing problem in searching)|(i am facing problem)
+- really? tell me or can go to our "documentation" page on the top.
+
++ (i can not find what i want)|(i can not find everything)|(i can not find)|(i do not find)
+- sorry, we're upgrading. u'll be satisfied very soon.
+
++ * (time|zone)
+- sorry,we are including more and more regularly. now 20 time zones r available.
+
++ (what are those)|(what r those)|(which are those)|(which r those)|(which time zones are avilable)|(which time zones r avilable)
+- just type "time"(without parenthesis). avilable will'be shown automaticaly.

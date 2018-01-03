@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web chatbot</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="library/jquery_google.js"></script>
+    <script src="library/jquery_ibm.js"></script>
+    <script src="library/jquery_microsoft.js"></script>
+    <script src="library/rive_library.js"></script>
+</head>
+<body>
+        <div id="chatbot_main">              <!-- chatbot main strats -->
+      
+            <div id="chatuserbot">
+            <span style="font-size:17px; font-weight:bold;color:#bdc3c7">user:</span>
+            <br><input type="text" id="user_input"><br><br>  <!-- user input -->
+            <textarea name="" id="bot_reply" rows="5" cols="40" placeholder="bot reply:"></textarea>
+            <!--<input type="text" id="bot_reply">-->               <!-- bot replies -->
+            </div>
+          </div>
+          
+          <script>
+              //catching user value & chatbot replies start
+
+      var user = document.getElementById("user_input");
+      var bot = new RiveScript();
+      bot.loadFile("bot.rive", loading_success, loading_error);
+      function loading_success() {
+      //console.log("ok!");
+      bot.sortReplies();
+      }
+      function loading_error() {
+      //console.log("error");
+      }
+      $(document).keypress(function (e) {
+      if (e.which == 13) {
+        var input = user.value;
+        var reply = bot.reply("local-user", input);
+        $("#bot_reply").val(reply);
+        $("#user_input").val("");
+      }
+    });
+
+    //catching user value & chatbot replies ends
+          </script>
+</body>
+</html>
